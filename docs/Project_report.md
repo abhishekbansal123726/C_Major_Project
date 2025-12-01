@@ -1,12 +1,18 @@
 1.	Title Page
 Project Title:
+
 MOVIE RECOMMENDATION SYSTEM (C Programming Project)
+
 Submitted By: Abhishek Bansal
+
 Course: B.Tech (Computer Science)
+
 University: UPES Dehradun
+
 Submitted To: Dr. Tanu singh
 
 2. Abstract
+
 A basic movie recommendation system created with the C programming language is presented in this project.
 The system recommends movies based on Category, Mood, Genre, Age Group, and Film Industry.
 To make the code understandable, reusable, and simple to maintain, it employs modular programming with functions.
@@ -14,6 +20,7 @@ Conditional statements, loops, user input handling, and menus are among the fund
 The output is displayed in the terminal along with user-friendly, interactive options.
 
 3. Problem Definition
+
 Users often get confused about which movie to watch based on their mood or preferences.
 The goal of this project is to create a console-based movie recommender that: • Accepts basic user input; • Recognizes the user's mood or preferred genre; • Instantaneously suggests appropriate films; and • Offers a simple, interactive menu-based interface.
 The issue of searching or pondering over what to watch for too long is resolved by the system.
@@ -40,6 +47,7 @@ The issue of searching or pondering over what to watch for too long is resolved 
 
 
 5. Implementation Details (with Snippets)
+
 Use of Header File
 void cat();
 void mood();
@@ -84,6 +92,7 @@ void mood() {
 }
 
 6. Testing & Results
+
 Test Case 1
 Input: Category → 1 (Action)
 Output: Pathaan, Pushpa, RRR, KGF, Salaar
@@ -99,6 +108,7 @@ Output: Avatar, Inception, John Wick
 Program Output is correct + No crashes or segmentation faults.
 
 7. Conclusion & Future Work
+
 Conclusion
 The Movie Recommendation System successfully recommends movies based on various user preferences.
 It demonstrates core C programming concepts like loops, functions, conditionals, menus, and modular programming.
@@ -110,6 +120,7 @@ Future Work
 
 
 8. References
+
 •	C Programming Textbook – Let us C
 •	online C documentation
 •	Class notes and lab materials
