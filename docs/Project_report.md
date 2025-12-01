@@ -60,23 +60,36 @@ The issue of searching or pondering over what to watch for too long is resolved 
 5. Implementation Details (with Snippets)
 
 Use of Header File
+
 void cat();
+
 void mood();
+
 void genre();
+
 void ageR();
+
 void industry();
+
 Main Menu Snippet
+
 do {
+    
     printf("\nMenu:\n");
+    
     printf("1. Category Based\n");
+    
     printf("2. Mood Based\n");
+    
     printf("3. Genre Based\n");
+    
     printf("4. Age Based\n");
+    
     printf("5. Industry Based\n");
+    
     printf("6. Exit\n");
 
     scanf("%d",&ch);
-
     switch(ch) {
         case 1: cat(); break;
         case 2: mood(); break;
@@ -113,19 +126,30 @@ void mood() {
 6. Testing & Results
 
 Test Case 1
+
 Input: Category → 1 (Action)
+
 Output: Pathaan, Pushpa, RRR, KGF, Salaar
 
+
 Test Case 2
+
 Input: Mood → Happy
+
 Output: 3 Idiots, Housefull, Munna Bhai
+
+
 Test Case 3
 
 Input: Age = 10
+
 Output: Doraemon, Kung Fu Panda, Toy Story
 
+
 Test Case 4
+
 Input: Industry → Hollywood
+
 Output: Avatar, Inception, John Wick
 
 
@@ -137,6 +161,7 @@ The Movie Recommendation System successfully recommends movies based on various 
 It demonstrates core C programming concepts like loops, functions, conditionals, menus, and modular programming.
 
 Future Work
+
 •	Add file handling to store watch history
 
 •	Add more advanced categories
