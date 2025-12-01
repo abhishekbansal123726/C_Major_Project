@@ -35,11 +35,18 @@ The issue of searching or pondering over what to watch for too long is resolved 
 5. Take the user's choice as input
 6. Call the appropriate function based on the choice
   1 → cat()
+
   2 → mood()
+
   3 → genre()
-  4 → ageR()
+
+  4 → ageR(
+
+  )
   5 → industry()
+
   6 → Exit program
+
 7. If the user enters an invalid choice show Invalid choice
 8. Repeat the menu until the user chooses to exit
 9. End the program
@@ -76,11 +83,17 @@ do {
         default: printf("Invalid choice!");
     }
 } while(ch != 6);
+
 Example Function Snippet
 void mood() {
+
     int m;
-    printf("1. Happy\n2. Sad\n3. Lonely\n4. Excited\n");
-    scanf("%d", &m);
+
+    printf("1. Happy\n2. Sad\n3. Lonely\n4.
+
+     Excited\n");
+
+     scanf("%d", &m);
 
     switch(m) {
         case 1: printf("Watch: 3 Idiots, Housefull\n"); break;
@@ -96,33 +109,42 @@ void mood() {
 Test Case 1
 Input: Category → 1 (Action)
 Output: Pathaan, Pushpa, RRR, KGF, Salaar
+
 Test Case 2
 Input: Mood → Happy
 Output: 3 Idiots, Housefull, Munna Bhai
 Test Case 3
+
 Input: Age = 10
 Output: Doraemon, Kung Fu Panda, Toy Story
+
 Test Case 4
 Input: Industry → Hollywood
 Output: Avatar, Inception, John Wick
-Program Output is correct + No crashes or segmentation faults.
+
 
 7. Conclusion & Future Work
 
 Conclusion
 The Movie Recommendation System successfully recommends movies based on various user preferences.
 It demonstrates core C programming concepts like loops, functions, conditionals, menus, and modular programming.
+
 Future Work
 •	Add file handling to store watch history
+
 •	Add more advanced categories
+
 •	Build a GUI version
+
 •	Connect to an API for real-time movie suggestions
 
 
 8. References
 
 •	C Programming Textbook – Let us C
+
 •	online C documentation
+
 •	Class notes and lab materials
 
 
