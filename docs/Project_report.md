@@ -11,6 +11,7 @@ University: UPES Dehradun
 
 Submitted To: Dr. Tanu singh
 
+
 2. Abstract
 
 A basic movie recommendation system created with the C programming language is presented in this project.
@@ -19,11 +20,13 @@ To make the code understandable, reusable, and simple to maintain, it employs mo
 Conditional statements, loops, user input handling, and menus are among the fundamental C concepts that are demonstrated in this project.
 The output is displayed in the terminal along with user-friendly, interactive options.
 
+
 3. Problem Definition
 
 Users often get confused about which movie to watch based on their mood or preferences.
 The goal of this project is to create a console-based movie recommender that: • Accepts basic user input; • Recognizes the user's mood or preferred genre; • Instantaneously suggests appropriate films; and • Offers a simple, interactive menu-based interface.
 The issue of searching or pondering over what to watch for too long is resolved by the system.
+
 
 4. System Design
 
@@ -50,6 +53,7 @@ The issue of searching or pondering over what to watch for too long is resolved 
 7. If the user enters an invalid choice show Invalid choice
 8. Repeat the menu until the user chooses to exit
 9. End the program
+
 
 
 
@@ -104,6 +108,8 @@ void mood() {
     }
 }
 
+
+
 6. Testing & Results
 
 Test Case 1
@@ -123,6 +129,7 @@ Input: Industry → Hollywood
 Output: Avatar, Inception, John Wick
 
 
+
 7. Conclusion & Future Work
 
 Conclusion
@@ -137,6 +144,7 @@ Future Work
 •	Build a GUI version
 
 •	Connect to an API for real-time movie suggestions
+
 
 
 8. References
