@@ -31,29 +31,107 @@ The issue of searching or pondering over what to watch for too long is resolved 
 4. System Design
 
 4.2 Algorithm
-1. Start the program
-2. Display the title of the project
-3. Ask the user to enter their name
-4. Display the main menu with six options
-5. Take the user's choice as input
-6. Call the appropriate function based on the choice
-  1 → cat()
+ 1. MAIN FUNCTION-Algorithm
 
-  2 → mood()
+1.	Start the program.
 
-  3 → genre()
+2.	Take the user’s name as input.
 
-  4 → ageR(
+3.	Run a loop that keeps displaying 
+the menu again and again.
 
-  )
-  5 → industry()
+4.	Take the user’s choice.
 
-  6 → Exit program
+5.	If:
 
-7. If the user enters an invalid choice show Invalid choice
-8. Repeat the menu until the user chooses to exit
-9. End the program
+o	1 → call the category function
 
+o	2 → call the mood function
+
+o	3 → call the genre function
+
+o	4 → call the age function
+
+o	5 → call the industry function
+
+o	6 → print the exit message
+
+6.	If the user enters a wrong choice 
+
+→ print an error message.
+
+7.	When the user presses 6, the program should stop.
+
+
+2.	CATEGORY FUNCTION- Algorithm
+
+1.	Print the category menu.
+
+2.	Take the category number as input 
+from the user.
+
+3.	If:
+
+•	1 → print action movies
+
+•	2 → print comedy movies
+
+•	3 → print horror movies
+
+•	4 → print drama movies
+
+4.	Otherwise → print “wrong option”.
+
+
+3.	MOOD FUNCTION – Algorithm
+
+1.  Show the mood list to the user.
+
+2. Take the user’s input.
+
+3. Match the mood using a switch-case.
+
+4. Print the movies for that mood.
+
+5. If the input is wrong → print an error message
+
+
+5.	GENRE FUNCTION – Algorithm
+
+1.	the genre options.
+
+2.	Take input from the user.
+
+3.	Print movies based on the user’s 
+input.
+
+4.	If the input is incorrect → show “invalid Print entry”.
+
+
+5.	AGE-BASED FUNCTION – Algorithm
+
+1.  The user enters their age.
+
+2. Compare the age:
+
+•	<13 → show kids’ movies
+
+•	13–17 → show teen movies
+
+•	18–40 → show adult movies
+
+3.   Print the output.
+
+
+6.	INDUSTRY FUNCTION - Algorithm
+
+ 1.Show the industry options.
+ 
+ 2.Wait for the user’s input.
+ 
+ 3.Print movies based on the input.
+ 
+ 4.If the value is wrong → show an invalid message.
 
 
 
